@@ -1,0 +1,702 @@
+/* ************************************************************************* */
+
+/* ------------------------- Importing google fonts ------------------------ */
+
+/* ************************************************************************* */
+
+/* **** Lato Font **** */
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Lato Italic"), local("Lato-Italic"), url(/fonts/lato-latin-italic-400.woff2?b45e52f342dc29c8553f51a99f924871) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Lato Bold Italic"), local("Lato-BoldItalic"), url(/fonts/lato-latin-italic-700.woff2?b4c4170ea2742df9c6ed6735e65f2120) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lato Regular"), local("Lato-Regular"), url(/fonts/lato-latin-normal-400.woff2?f1a4a058fbba1e35a406188ae7eddaf8) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Lato Bold"), local("Lato-Bold"), url(/fonts/lato-latin-normal-700.woff2?7fbbfd1610770d594aef639cfefdd0b0) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* **** Montserrat **** */
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Montserrat Light"), local("Montserrat-Light"), url(/fonts/Montserrat-latin-normal-300.woff2?0594021081873b515fca552d67e24528) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url(/fonts/Montserrat-latin-normal-400.woff2?3cec7b57a4690278f391eb27f4e12e88) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"), url(/fonts/Montserrat-latin-normal-600.woff2?01f2b99178701f558ebc81cfa650cd49) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* **** Montserrat **** */
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans Regular"), local("OpenSans-Regular"), url(/fonts/Open-sans-latin-italic-400.woff2?cffb686d7d2f4682df8342bd4d276e09) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Open Sans SemiBold Italic"), local("OpenSans-SemiBoldItalic"), url(/fonts/Open-sans-latin-italic-600.woff2?4950a7205f0b5cefe41fc03ac346e236) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* **** Raleway **** */
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Raleway Italic"), local("Raleway-Italic"), url(/fonts/Raleway-latin-italic-400.woff2?de4bb8c8d39843b4d00f591c31e747b4) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Raleway Light"), local("Raleway-Light"), url(/fonts/Raleway-latin-normal-300.woff2?1acb42d704823f91723455986436f721) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Raleway"), local("Raleway-Regular"), url(/fonts/Raleway-latin-normal-400.woff2?2075794c8e9e7e48e5fbf1b2313e7adf) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Raleway SemiBold"), local("Raleway-SemiBold"), url(/fonts/Raleway-latin-normal-600.woff2?bd2bb116d8276633fec3aba46fe9d254) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* **** Work Sans **** */
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Work Sans"), local("WorkSans-Regular"), url(/fonts/Work-sans-latin-normal-400.woff2?011f6e38258d3f22c88254f534c2b308) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Work Sans Medium"), local("WorkSans-Medium"), url(/fonts/Work-sans-latin-normal-500.woff2?eb21dcd940b9be8108af24f6bb4651a9) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Work Sans SemiBold"), local("WorkSans-SemiBold"), url(/fonts/Work-sans-latin-normal-600.woff2?6be288f5389cadeddd269589a3c2b3f1) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* ************************************************************************* */
+
+/* ------------------------- Defining Constants ---------------------------- */
+
+/* ************************************************************************* */
+
+/* ************************************************************************* */
+
+/* ---------------------------- Theme Design ------------------------------- */
+
+/* ************************************************************************* */
+
+@media (min-width: 320px) {
+  .segment.mobile-navbar {
+    background: transparent !important;
+    z-index: +1;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
+    position: absolute;
+    width: 100%;
+  }
+
+  .segment.mobile-navbar .logo img {
+    width: 105px !important;
+    margin-bottom: -5px !important;
+    margin-left: -5px !important;
+  }
+
+  .segment.mobile-navbar .menu {
+    background: transparent !important;
+  }
+
+  .segment.mobile-navbar .menu .item:last-child {
+    border: 1px solid #fff;
+  }
+
+  .segment.mobile-navbar .menu .item:last-child .menu.transition {
+    position: absolute;
+    top: 44px;
+    width: 100vw;
+    right: -135%;
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    z-index: 299;
+    overflow: visible;
+    -webkit-box-shadow: 5px 0 10px 2px black;
+            box-shadow: 5px 0 10px 2px black;
+  }
+
+  .segment.mobile-navbar .menu .item:last-child .menu.transition .item {
+    text-align: center;
+    font-size: 1.1em !important;
+    line-height: 2.5em;
+    letter-spacing: 0.2em;
+  }
+
+  .home-header {
+    height: auto;
+    background-image: url(/images/slide-1.jpg?4f2ed4c0a38b8e70d2df900e3a26375b) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: relative !important;
+    width: 100%;
+    top: 0;
+  }
+
+  .home-header .main-heading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1.8em !important;
+    letter-spacing: -1px;
+    margin-top: 3.3em !important;
+    margin-bottom: 0;
+  }
+
+  .home-header .sub-heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1em !important;
+    margin-top: 0.4em !important;
+    font-weight: 300;
+  }
+
+  .home-header .free-signup-button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 0.7em !important;
+    padding: 1.5em;
+    margin-bottom: 2em;
+    margin-top: 1em;
+  }
+
+  .course-tour {
+    padding: 2em 1em 5em 1em;
+  }
+
+  .course-tour h3.header {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    color: #404040;
+    font-size: 1.2em !important;
+  }
+
+  .course-tour h3.header::after {
+    display: block;
+    content: "";
+    height: 3px;
+    width: 46px;
+    background-color: #00b5ad;
+    margin: 18px auto;
+  }
+
+  .course-tour p {
+    font-family: "Montserrat", sans-serif;
+    color: #6a7173;
+    font-weight: 300;
+    font-size: 0.9em !important;
+  }
+
+  .course-tour .step .title {
+    font-family: "Montserrat", sans-serif;
+    color: #606060;
+  }
+
+  .course-tour .step:first-child .step {
+    border-right: 0 !important;
+  }
+
+  .footer {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    background-color: #213c50;
+    padding-top: 3em;
+    color: #E8E8E8;
+  }
+
+  .footer .address-column .logo img {
+    width: 100px;
+  }
+
+  .footer .address-column .header {
+    font-size: 0.8em;
+  }
+
+  .footer .address-column .social-box {
+    padding-top: 1em;
+  }
+
+  .footer .equal div.header {
+    font-weight: 600;
+    font-size: 0.9em;
+    padding-bottom: 0.5em;
+    letter-spacing: 0.2em;
+  }
+
+  .footer .equal .item {
+    font-size: 0.9em;
+    line-height: 2.5em;
+  }
+
+  .footer .foobar {
+    border-top: 1px solid rgba(255, 255, 255, 0.15) !important;
+    margin-top: 2em !important;
+  }
+
+  .footer .foobar .header {
+    font-size: 0.8em !important;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+  }
+
+  .page-header {
+    min-height: 182px !important;
+    background-image: url(/images/page-header-bg.jpg?eb0ae8a6026cc58785c0289290731cc5) !important;
+    background-size: 100% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .page-header .header {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    margin-top: 2.6em !important;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+  }
+
+  .login-form {
+    height: 100%;
+    margin-top: 3em !important;
+    margin-bottom: 5em !important;
+    padding: 1em !important;
+    margin-right: 0 !important;
+  }
+
+  .form .custom-error {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    margin: 1em !important;
+    letter-spacing: 0.06em;
+    font-size: 0.85em !important;
+  }
+
+  .page-loader {
+    border: none !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    background: rgba(255, 255, 255, 0.9) !important;
+    position: absolute !important;
+    width: 100%;
+    height: 100%;
+  }
+
+  .page-loader .text.loader {
+    background: #fff !important;
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.1); */
+    width: 250px !important;
+    height: 115px !important;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    line-height: 3em;
+  }
+
+  .page-loader .ui.large.loader:before,
+  .page-loader .ui.large.loader:after {
+    margin: 1em 0em 0em -1.71428571rem !important;
+  }
+
+  .admin-main .ui.segment.pushable {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    border: none !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+  }
+
+  .admin-main .toggle-button {
+    position: absolute;
+    margin-top: -4em !important;
+    background: rgba(33, 60, 80, 0.9);
+  }
+
+  .admin-main .toggle-button .ui.toggle.checkbox .box:before,
+  .admin-main .toggle-button .ui.toggle.checkbox label:before {
+    -webkit-box-shadow: 0 0 10px #fff !important;
+            box-shadow: 0 0 10px #fff !important;
+  }
+
+  .admin-main .admin-page {
+    min-height: 400px !important;
+  }
+}
+
+@media (min-width: 383px) {
+  .home-header .main-heading {
+    font-size: 2.2em !important;
+    margin-top: 2.3em !important;
+  }
+
+  .home-header .sub-heading {
+    font-size: 1.2em !important;
+    margin-top: 0.2em !important;
+  }
+
+  .home-header .free-signup-button {
+    font-size: 0.8em !important;
+  }
+
+  .course-tour h3.header {
+    font-size: 1.3em !important;
+  }
+}
+
+@media (min-width: 551px) {
+  .home-header .main-heading {
+    font-size: 2.7em !important;
+  }
+
+  .home-header .sub-heading {
+    font-size: 1.4em !important;
+    padding: 0 7%;
+  }
+
+  .home-header .free-signup-button {
+    font-size: 0.8em !important;
+  }
+
+  .course-tour h3.header {
+    font-size: 1.5em !important;
+  }
+
+  .course-tour p {
+    font-size: 1em !important;
+  }
+
+  .course-tour .step:first-child {
+    margin: 0 4em !important;
+  }
+
+  .course-tour .step:first-child .step {
+    margin: auto !important;
+  }
+}
+
+@media (min-width: 620px) {
+  .home-header .main-heading {
+    font-size: 3.0em !important;
+  }
+
+  .home-header .sub-heading {
+    font-size: 1.5em !important;
+  }
+
+  .home-header .free-signup-button {
+    font-size: 0.9em !important;
+  }
+
+  .course-tour {
+    padding: 3em 1em 7em 1em;
+  }
+
+  .course-tour h3.header {
+    font-size: 1.7em !important;
+  }
+
+  .course-tour p {
+    font-size: 1.1em !important;
+  }
+
+  .course-tour .step-container {
+    margin-top: 2em;
+  }
+
+  .course-tour .step-container .step:first-child {
+    margin: 0 8em !important;
+  }
+
+  .course-tour .step-container .step:first-child .step {
+    margin: auto !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .segment.navbar {
+    background: rgba(33, 60, 80, 0.9) !important;
+    z-index: +1;
+    position: absolute;
+    width: 100%;
+  }
+
+  .segment.navbar .menu {
+    border: none !important;
+  }
+
+  .segment.navbar .logo img {
+    width: 110px !important;
+    margin-bottom: -3px !important;
+  }
+
+  .segment.navbar .or {
+    top: 12% !important;
+  }
+
+  .home-header .pretitle {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1em !important;
+    letter-spacing: 0.8em;
+    margin-top: 9em !important;
+    font-weight: 300;
+  }
+
+  .home-header .main-heading {
+    font-size: 3.8em !important;
+    margin-top: 0 !important;
+  }
+
+  .home-header .sub-heading {
+    font-size: 1.5em !important;
+  }
+
+  .home-header .free-signup-button {
+    margin-bottom: 5em;
+  }
+
+  .course-tour h3.header {
+    font-size: 1.8em !important;
+  }
+
+  .course-tour p {
+    font-size: 1.2em !important;
+  }
+
+  .course-tour .step-container {
+    margin-top: 3em;
+  }
+
+  .course-tour .step-container .step:first-child {
+    margin: 0 11em !important;
+  }
+
+  .course-tour .step-container .step:first-child .step {
+    margin: auto !important;
+  }
+
+  .user-dropdown {
+    margin-top: 1.1em !important;
+  }
+
+  .user-dropdown img {
+    margin-top: -0.5em !important;
+    -webkit-box-shadow: 0 0 5px white;
+            box-shadow: 0 0 5px white;
+  }
+}
+
+@media (min-width: 992px) {
+  .segment.navbar .or {
+    top: 11% !important;
+  }
+
+  .home-header .pretitle {
+    font-size: 1.2em !important;
+    margin-top: 11em !important;
+  }
+
+  .home-header .main-heading {
+    font-size: 4em !important;
+    margin-top: 0.2em !important;
+  }
+
+  .home-header .sub-heading {
+    font-size: 1.7em !important;
+    padding: 0;
+  }
+
+  .home-header .free-signup-button {
+    margin-bottom: 7em;
+  }
+
+  .course-tour {
+    padding: 4em 1em 7em 1em;
+  }
+
+  .course-tour h3.header {
+    font-size: 1.8em !important;
+  }
+
+  .course-tour p {
+    font-size: 1.2em !important;
+  }
+
+  .course-tour .step-container {
+    margin: 4em 0;
+  }
+
+  .course-tour .step-container .step:first-child {
+    margin: auto !important;
+  }
+
+  .course-tour .step-container .step:first-child .step {
+    margin: auto !important;
+    border-right: 1px solid rgba(34, 36, 38, 0.15) !important;
+  }
+
+  .course-tour .step-container .step:first-child .step:last-child {
+    border-right: 0 !important;
+  }
+
+  .course-tour .step-container p {
+    font-size: 1em !important;
+    text-align: justify;
+    padding: 1em;
+  }
+
+  .footer {
+    padding-top: 4em;
+  }
+
+  .footer .address-column .logo img {
+    width: 110px;
+  }
+
+  .footer .address-column .header {
+    font-size: 0.9em;
+  }
+
+  .footer .address-column .social-box {
+    padding-top: 1.5em;
+  }
+
+  .footer .foobar {
+    margin-top: 4em !important;
+  }
+
+  .footer .foobar .header {
+    letter-spacing: 0.2em;
+  }
+}
+
+@media (min-width: 1224px) {
+  .home-header .pretitle {
+    font-size: 1.3em !important;
+    margin-top: 11em !important;
+  }
+
+  .home-header .main-heading {
+    font-size: 4.3em !important;
+    margin-top: 0.2em !important;
+  }
+
+  .home-header .sub-heading {
+    font-size: 1.8em !important;
+  }
+
+  .home-header .free-signup-button {
+    margin-bottom: 8em;
+  }
+
+  .course-tour {
+    padding: 4em 1em 7em 1em;
+  }
+
+  .course-tour h3.header {
+    font-size: 2em !important;
+  }
+
+  .course-tour p {
+    font-size: 1.4em !important;
+  }
+
+  .course-tour .step-container {
+    margin: 5em 0 2em 0;
+  }
+
+  .course-tour .step-container .step:first-child {
+    margin: auto !important;
+  }
+
+  .course-tour .step-container .step:first-child .step {
+    margin: auto !important;
+    border-right: 1px solid rgba(34, 36, 38, 0.15) !important;
+  }
+
+  .course-tour .step-container .step:first-child .step:last-child {
+    border-right: 0 !important;
+  }
+
+  .course-tour .step-container p {
+    font-size: 1.2em !important;
+    text-align: justify;
+    padding: 1.4em 0.5em;
+  }
+}
+
